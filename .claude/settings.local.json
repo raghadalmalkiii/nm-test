@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__visualize__show_widget",
+      "PowerShell($content = Get-Content \"C:\\\\Users\\\\raghad.almalki\\\\.claude\\\\projects\\\\C--Users-raghad-almalki-nm-journey-maps\\\\ac512fe8-28c8-4c01-88d7-aa47e3ed13c4\\\\tool-results\\\\mcp-Claude_Browser-javascript_tool-1789455746986.txt\" -Raw | ConvertFrom-Json; $html = $content[0].text; $html.Substring\\(0, 2000\\))",
+      "PowerShell($content = Get-Content \"C:\\\\Users\\\\raghad.almalki\\\\.claude\\\\projects\\\\C--Users-raghad-almalki-nm-journey-maps\\\\ac512fe8-28c8-4c01-88d7-aa47e3ed13c4\\\\tool-results\\\\mcp-Claude_Browser-javascript_tool-1789455746986.txt\" -Raw | ConvertFrom-Json; $html = $content[0].text; Set-Content -Path \"C:\\\\Users\\\\raghad.almalki\\\\nm-journey-maps\\\\journey-maps.html\" -Value $html -Encoding UTF8)"
+    ]
+  }
+}
